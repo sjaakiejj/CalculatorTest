@@ -1,0 +1,12 @@
+<div class="explorer">
+  <table class="history"> 
+    <tr><th>Equation</th><th>Step</th><th>Operation</th><th>Stack</th></tr>
+    <tr ng-repeat="step in steps">
+      
+      <td class='equation'>{{step.equation}}</td>
+      <td class='step'>{{step.step}}</td>
+      <td class='operation'>{{step.operation}}</td>
+      <td class='stack'>{{step.stack}}</td>
+    </tr>
+  </table>
+</div>

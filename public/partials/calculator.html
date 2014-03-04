@@ -1,0 +1,15 @@
+<div id="calculator">
+  <input id="calc-screen" type="text" ng-model="calc_screen"/>
+  
+  <table>
+    <tr ng-repeat="row in rows"> 
+      <td ng-repeat="cell in row" 
+      	  ng-click="addToScreen(cell.number)"
+	  colspan="{{cell.colspan}}">
+	  {{cell.number}}
+      </td>
+    </tr>
+    
+  </table>
+  
+</div>
