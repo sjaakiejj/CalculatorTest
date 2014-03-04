@@ -1,7 +1,9 @@
 CalculatorTest
 ==============
 
-This calculator was designed as a basic tool. 
+This calculator was designed as a basic tool. You can enter information directly into the textbox, including decimal numbers, or use the graphical input for simple calculations.
+
+The calculator does deal with precedence to some extent - it will evaluate multiplications and divisions before it evaluates additions and subtractions, using a simple stack approach to achieve it.
 
 Notes:
 Due to time limitations as well as simplicity, the following functionality is not supported:
